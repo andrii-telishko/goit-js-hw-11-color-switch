@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel ./index.html",
-    "build": "parcel build ./index.html--public-url /goit-js-hw-11-color-switch/",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url /goit-js-hw-11-color-switch/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
